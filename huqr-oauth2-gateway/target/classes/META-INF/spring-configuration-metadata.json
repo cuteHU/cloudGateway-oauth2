@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "secure.ignore",
+      "type": "com.huqr.cloud.config.IgnoreUrlsConfig",
+      "sourceType": "com.huqr.cloud.config.IgnoreUrlsConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "secure.ignore.urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.huqr.cloud.config.IgnoreUrlsConfig"
+    }
+  ],
+  "hints": []
+}

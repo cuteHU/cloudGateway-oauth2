@@ -1,0 +1,18 @@
+package com.huqr.cloud.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author coderHqr
+ * @date 2020/7/9 14:34
+ */
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello World";
+    }
+
+}
